@@ -7,9 +7,9 @@ namespace PaginationMVC.Models
 {
     public class Book
     {
-        private string Title { get; set; }
-        private string Director { get; set; }
-        private int PubDate { get; set; }
+        public string Title { get; set; }
+        public string Director { get; set; }
+        public int PubDate { get; set; }
         public Book(string Title, string Director, int PubDate)
         {
             this.Title = Title;
